@@ -129,3 +129,20 @@ STATIC_URL = "static/"
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://localhost:8000/",
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "https://localhost:8000/",
+]
+
+CORS_ALLOW_ALL_ORIGINS = True
+
+# Default primary key field type
+# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
+
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+NOCODB_BASE_URL = "https://app.nocodb.com/api/v2/"
+NOCODB_API_KEY = "UrwgI2fOSNbVOL49hSIcZUclSxHg96EojB8UV_NY"
